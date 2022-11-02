@@ -1,0 +1,809 @@
+{
+  "4": {
+    "location": "golf.rb:7",
+    "pcs": [
+      13,
+      14
+    ]
+  },
+  "5": {
+    "location": "golf.rb:7",
+    "pcs": [
+      15
+    ]
+  },
+  "6": {
+    "location": "golf.rb:7",
+    "pcs": [
+      16
+    ]
+  },
+  "7": {
+    "location": "golf.rb:7",
+    "pcs": [
+      17,
+      18,
+      19
+    ]
+  },
+  "8": {
+    "location": "golf.rb:7"
+  },
+  "9": {
+    "location": "golf.rb:7",
+    "pcs": [
+      20
+    ]
+  },
+  "10": {
+    "location": "golf.rb:7",
+    "pcs": [
+      21
+    ]
+  },
+  "11": {
+    "location": "golf.rb:7"
+  },
+  "12": {
+    "location": "golf.rb:7"
+  },
+  "13": {
+    "location": "golf.rb:7"
+  },
+  "15": {
+    "location": "golf.rb:8",
+    "pcs": [
+      22,
+      23,
+      24
+    ]
+  },
+  "16": {
+    "location": "golf.rb:8",
+    "pcs": [
+      25,
+      26,
+      27
+    ]
+  },
+  "17": {
+    "location": "golf.rb:8",
+    "pcs": [
+      28,
+      29
+    ]
+  },
+  "18": {
+    "location": "golf.rb:8"
+  },
+  "20": {
+    "location": "golf.rb:10",
+    "pcs": [
+      30
+    ]
+  },
+  "21": {
+    "location": "golf.rb:10",
+    "pcs": [
+      31
+    ]
+  },
+  "22": {
+    "location": "golf.rb:10",
+    "pcs": [
+      32
+    ]
+  },
+  "23": {
+    "location": "golf.rb:10",
+    "pcs": [
+      33
+    ]
+  },
+  "24": {
+    "location": "golf.rb:10",
+    "pcs": [
+      34
+    ]
+  },
+  "25": {
+    "location": "golf.rb:10",
+    "pcs": [
+      35,
+      36,
+      37
+    ]
+  },
+  "26": {
+    "location": "golf.rb:10"
+  },
+  "28": {
+    "location": "golf.rb:11",
+    "pcs": [
+      38
+    ]
+  },
+  "29": {
+    "location": "golf.rb:11",
+    "pcs": [
+      39
+    ]
+  },
+  "30": {
+    "location": "golf.rb:11",
+    "pcs": [
+      40
+    ]
+  },
+  "31": {
+    "location": "golf.rb:11"
+  },
+  "33": {
+    "location": "golf.rb:12",
+    "pcs": [
+      41
+    ]
+  },
+  "34": {
+    "location": "golf.rb:12",
+    "pcs": [
+      42,
+      43
+    ]
+  },
+  "35": {
+    "location": "golf.rb:12",
+    "pcs": [
+      44
+    ]
+  },
+  "36": {
+    "location": "golf.rb:12",
+    "pcs": [
+      45,
+      46,
+      47
+    ]
+  },
+  "37": {
+    "location": "golf.rb:12"
+  },
+  "39": {
+    "location": "golf.rb:13"
+  },
+  "40": {
+    "location": "golf.rb:13"
+  },
+  "42": {
+    "location": "golf.rb:26",
+    "pcs": [
+      48,
+      49,
+      50
+    ]
+  },
+  "43": {
+    "location": "golf.rb:26",
+    "pcs": [
+      51
+    ]
+  },
+  "44": {
+    "location": "golf.rb:26",
+    "pcs": [
+      52,
+      53
+    ]
+  },
+  "45": {
+    "location": "golf.rb:26"
+  },
+  "47": {
+    "location": "golf.rb:27",
+    "pcs": [
+      54
+    ]
+  },
+  "48": {
+    "location": "golf.rb:27",
+    "pcs": [
+      55,
+      56
+    ]
+  },
+  "49": {
+    "location": "golf.rb:27"
+  },
+  "51": {
+    "location": "golf.rb:28",
+    "pcs": [
+      57
+    ]
+  },
+  "52": {
+    "location": "golf.rb:28",
+    "pcs": [
+      58
+    ]
+  },
+  "53": {
+    "location": "golf.rb:28",
+    "pcs": [
+      59
+    ]
+  },
+  "54": {
+    "location": "golf.rb:28",
+    "pcs": [
+      60
+    ]
+  },
+  "55": {
+    "location": "golf.rb:28",
+    "pcs": [
+      61
+    ]
+  },
+  "56": {
+    "location": "golf.rb:28",
+    "pcs": [
+      62,
+      63
+    ]
+  },
+  "57": {
+    "location": "golf.rb:28"
+  },
+  "59": {
+    "location": "golf.rb:30"
+  },
+  "60": {
+    "location": "golf.rb:30",
+    "pcs": [
+      64,
+      65
+    ]
+  },
+  "61": {
+    "location": "golf.rb:30",
+    "pcs": [
+      66,
+      67
+    ]
+  },
+  "62": {
+    "location": "golf.rb:30",
+    "pcs": [
+      68
+    ]
+  },
+  "63": {
+    "location": "golf.rb:30",
+    "pcs": [
+      69,
+      70,
+      71
+    ]
+  },
+  "64": {
+    "location": "golf.rb:30"
+  },
+  "66": {
+    "location": "golf.rb:31",
+    "pcs": [
+      72,
+      73
+    ]
+  },
+  "67": {
+    "location": "golf.rb:31",
+    "pcs": [
+      74,
+      75
+    ]
+  },
+  "68": {
+    "location": "golf.rb:31",
+    "pcs": [
+      76
+    ]
+  },
+  "69": {
+    "location": "golf.rb:31",
+    "pcs": [
+      77
+    ]
+  },
+  "70": {
+    "location": "golf.rb:31",
+    "pcs": [
+      78
+    ]
+  },
+  "71": {
+    "location": "golf.rb:31",
+    "pcs": [
+      79,
+      80
+    ]
+  },
+  "72": {
+    "location": "golf.rb:31"
+  },
+  "74": {
+    "location": "golf.rb:32",
+    "pcs": [
+      81
+    ]
+  },
+  "75": {
+    "location": "golf.rb:32",
+    "pcs": [
+      82,
+      83
+    ]
+  },
+  "76": {
+    "location": "golf.rb:32",
+    "pcs": [
+      84
+    ]
+  },
+  "77": {
+    "location": "golf.rb:32",
+    "pcs": [
+      85
+    ]
+  },
+  "78": {
+    "location": "golf.rb:32",
+    "pcs": [
+      86
+    ]
+  },
+  "79": {
+    "location": "golf.rb:32",
+    "pcs": [
+      87
+    ]
+  },
+  "80": {
+    "location": "golf.rb:32",
+    "pcs": [
+      88
+    ]
+  },
+  "81": {
+    "location": "golf.rb:32",
+    "pcs": [
+      89,
+      90
+    ]
+  },
+  "82": {
+    "location": "golf.rb:32"
+  },
+  "84": {
+    "location": "golf.rb:34",
+    "pcs": [
+      91,
+      92
+    ]
+  },
+  "85": {
+    "location": "golf.rb:34",
+    "pcs": [
+      93,
+      94
+    ]
+  },
+  "86": {
+    "location": "golf.rb:34",
+    "pcs": [
+      95
+    ]
+  },
+  "87": {
+    "location": "golf.rb:34",
+    "pcs": [
+      96,
+      97,
+      98
+    ]
+  },
+  "88": {
+    "location": "golf.rb:34"
+  },
+  "90": {
+    "location": "golf.rb:35",
+    "pcs": [
+      99,
+      100
+    ]
+  },
+  "91": {
+    "location": "golf.rb:35",
+    "pcs": [
+      101
+    ]
+  },
+  "92": {
+    "location": "golf.rb:35",
+    "pcs": [
+      102
+    ]
+  },
+  "93": {
+    "location": "golf.rb:35",
+    "pcs": [
+      103,
+      104
+    ]
+  },
+  "94": {
+    "location": "golf.rb:35"
+  },
+  "95": {
+    "location": "golf.rb:35",
+    "pcs": [
+      105,
+      106,
+      107
+    ]
+  },
+  "96": {
+    "location": "golf.rb:35"
+  },
+  "98": {
+    "location": "golf.rb:36"
+  },
+  "99": {
+    "location": "golf.rb:36"
+  },
+  "101": {
+    "location": "golf.rb:37",
+    "pcs": [
+      108,
+      109
+    ]
+  },
+  "102": {
+    "location": "golf.rb:37",
+    "pcs": [
+      110,
+      111
+    ]
+  },
+  "103": {
+    "location": "golf.rb:37"
+  },
+  "105": {
+    "location": "golf.rb:38"
+  },
+  "106": {
+    "location": "golf.rb:38"
+  },
+  "108": {
+    "location": "golf.rb:39",
+    "pcs": [
+      112,
+      113,
+      114
+    ]
+  },
+  "109": {
+    "location": "golf.rb:39"
+  },
+  "110": {
+    "location": "golf.rb:39"
+  },
+  "111": {
+    "location": "golf.rb:39"
+  },
+  "113": {
+    "location": "golf.rb:41",
+    "pcs": [
+      115,
+      116
+    ]
+  },
+  "114": {
+    "location": "golf.rb:41",
+    "pcs": [
+      117
+    ]
+  },
+  "115": {
+    "location": "golf.rb:41",
+    "pcs": [
+      118
+    ]
+  },
+  "116": {
+    "location": "golf.rb:41",
+    "pcs": [
+      119,
+      120
+    ]
+  },
+  "117": {
+    "location": "golf.rb:41"
+  },
+  "119": {
+    "location": "golf.rb:43",
+    "pcs": [
+      121
+    ]
+  },
+  "120": {
+    "location": "golf.rb:43",
+    "pcs": [
+      122
+    ]
+  },
+  "121": {
+    "location": "golf.rb:43",
+    "pcs": [
+      123,
+      124
+    ]
+  },
+  "122": {
+    "location": "golf.rb:43",
+    "pcs": [
+      125
+    ]
+  },
+  "123": {
+    "location": "golf.rb:43",
+    "pcs": [
+      126,
+      127
+    ]
+  },
+  "124": {
+    "location": "golf.rb:43"
+  },
+  "126": {
+    "location": "golf.rb:44",
+    "pcs": [
+      128
+    ]
+  },
+  "127": {
+    "location": "golf.rb:44",
+    "pcs": [
+      129,
+      130
+    ]
+  },
+  "128": {
+    "location": "golf.rb:44",
+    "pcs": [
+      131
+    ]
+  },
+  "129": {
+    "location": "golf.rb:44",
+    "pcs": [
+      132
+    ]
+  },
+  "130": {
+    "location": "golf.rb:44",
+    "pcs": [
+      133
+    ]
+  },
+  "131": {
+    "location": "golf.rb:44",
+    "pcs": [
+      134,
+      135
+    ]
+  },
+  "132": {
+    "location": "golf.rb:44",
+    "pcs": [
+      136
+    ]
+  },
+  "133": {
+    "location": "golf.rb:44",
+    "pcs": [
+      137
+    ]
+  },
+  "134": {
+    "location": "golf.rb:44",
+    "pcs": [
+      138,
+      139
+    ]
+  },
+  "135": {
+    "location": "golf.rb:44"
+  },
+  "137": {
+    "location": "golf.rb:46",
+    "pcs": [
+      140,
+      141
+    ]
+  },
+  "138": {
+    "location": "golf.rb:46",
+    "pcs": [
+      142,
+      143
+    ]
+  },
+  "139": {
+    "location": "golf.rb:46",
+    "pcs": [
+      144
+    ]
+  },
+  "140": {
+    "location": "golf.rb:46",
+    "pcs": [
+      145,
+      146
+    ]
+  },
+  "141": {
+    "location": "golf.rb:46",
+    "pcs": [
+      147
+    ]
+  },
+  "142": {
+    "location": "golf.rb:46",
+    "pcs": [
+      148,
+      149
+    ]
+  },
+  "143": {
+    "location": "golf.rb:46"
+  },
+  "145": {
+    "location": "golf.rb:47",
+    "pcs": [
+      150
+    ]
+  },
+  "146": {
+    "location": "golf.rb:47",
+    "pcs": [
+      151
+    ]
+  },
+  "147": {
+    "location": "golf.rb:47",
+    "pcs": [
+      152
+    ]
+  },
+  "148": {
+    "location": "golf.rb:47",
+    "pcs": [
+      153,
+      154
+    ]
+  },
+  "149": {
+    "location": "golf.rb:47"
+  },
+  "151": {
+    "location": "golf.rb:49",
+    "pcs": [
+      155
+    ]
+  },
+  "152": {
+    "location": "golf.rb:49",
+    "pcs": [
+      156
+    ]
+  },
+  "153": {
+    "location": "golf.rb:49"
+  },
+  "155": {
+    "location": "golf.rb:50",
+    "pcs": [
+      157
+    ]
+  },
+  "156": {
+    "location": "golf.rb:50",
+    "pcs": [
+      158,
+      159
+    ]
+  },
+  "157": {
+    "location": "golf.rb:50",
+    "pcs": [
+      160
+    ]
+  },
+  "158": {
+    "location": "golf.rb:50",
+    "pcs": [
+      161
+    ]
+  },
+  "159": {
+    "location": "golf.rb:50",
+    "pcs": [
+      162
+    ]
+  },
+  "160": {
+    "location": "golf.rb:50"
+  },
+  "162": {
+    "location": "golf.rb:51",
+    "pcs": [
+      163
+    ]
+  },
+  "163": {
+    "location": "golf.rb:51",
+    "pcs": [
+      164,
+      165
+    ]
+  },
+  "164": {
+    "location": "golf.rb:51",
+    "pcs": [
+      166
+    ]
+  },
+  "165": {
+    "location": "golf.rb:51"
+  },
+  "167": {
+    "location": "golf.rb:52"
+  },
+  "168": {
+    "location": "golf.rb:52"
+  },
+  "170": {
+    "location": "golf.rb:56",
+    "pcs": [
+      167,
+      168
+    ]
+  },
+  "171": {
+    "location": "golf.rb:56",
+    "pcs": [
+      169
+    ]
+  },
+  "172": {
+    "location": "golf.rb:56",
+    "pcs": [
+      170
+    ]
+  },
+  "173": {
+    "location": "golf.rb:56"
+  },
+  "175": {
+    "location": "golf.rb:57",
+    "pcs": [
+      171
+    ]
+  },
+  "176": {
+    "location": "golf.rb:57",
+    "pcs": [
+      172
+    ]
+  }
+}

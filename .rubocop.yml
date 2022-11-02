@@ -1,0 +1,6 @@
+Style/ConditionalAssignment:
+  Enabled: false
+Style/GlobalVars:
+  Enabled: false
+Style/NumericPredicate:
+  Enabled: false
