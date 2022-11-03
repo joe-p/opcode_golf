@@ -1,22 +1,25 @@
 #pragma version 8
 
 // src_map:golf.rb:7
-txn ApplicationID
-int 0
-==
-bz if0_end
+if0_condition:
+	txn ApplicationID
+	int 0
+	==
+	bz if0_end
 
-int 1
-return
+if0_logic:
+	int 1
+	return
 
 if0_end:
 
-	// src_map:golf.rb:8
-	txna ApplicationArgs 0
-	extract 6 2
-	store 0 // uint16
+// src_map:golf.rb:8
+txna ApplicationArgs 0
+extract 6 2
+store 0 // uint16
 
-	// src_map:golf.rb:10
+// src_map:golf.rb:10
+if1_condition:
 	byte "ints"
 	box_get
 	swap
@@ -24,7 +27,8 @@ if0_end:
 	!
 	bz if1_else
 
-	// src_map:golf.rb:11
+// src_map:golf.rb:11
+if1_logic:
 	byte "ints"
 	int 2
 	box_create
@@ -55,59 +59,63 @@ if1_else:
 	/
 	store 3 // high
 
-// src_map:golf.rb:30
-while0:
-	load 2 // low
-	load 3 // high
-	<
-	bz end_while0
+	// src_map:golf.rb:30
+	while0_condition:
+		load 2 // low
+		load 3 // high
+		<
+		bz while0_end
 
-	// src_map:golf.rb:31
-	load 2 // low
-	load 3 // high
-	+
-	int 1
-	shr
-	store 4 // mid
+	while0_logic:
 
-	// src_map:golf.rb:32
-	byte "ints"
-	load 4 // mid
-	int 2
-	*
-	int 2
-	box_extract
-	btoi
-	store 5 // mid_value
+		// src_map:golf.rb:31
+		load 2 // low
+		load 3 // high
+		+
+		int 1
+		shr
+		store 4 // mid
 
-	// src_map:golf.rb:34
-	load 5 // mid_value
-	load 1 // value
-	<
-	bz if2_else
+		// src_map:golf.rb:32
+		byte "ints"
+		load 4 // mid
+		int 2
+		*
+		int 2
+		box_extract
+		btoi
+		store 5 // mid_value
 
-	// src_map:golf.rb:35
-	load 4 // mid
-	int 1
-	+
-	store 2 // low
+		// src_map:golf.rb:34
+		if2_condition:
+			load 5 // mid_value
+			load 1 // value
+			<
+			bz if2_else
 
-	b if2_end
+		// src_map:golf.rb:35
+		if2_logic:
+			load 4 // mid
+			int 1
+			+
+			store 2 // low
 
-// src_map:golf.rb:36
-if2_else:
+			b if2_end
 
-	// src_map:golf.rb:37
-	load 4 // mid
-	store 3 // high
+		// src_map:golf.rb:36
+		if2_else:
 
-// src_map:golf.rb:38
-if2_end:
+			// src_map:golf.rb:37
+			load 4 // mid
+			store 3 // high
 
-	// src_map:golf.rb:39
-	b while0
+		// src_map:golf.rb:38
+		if2_end:
 
-end_while0:
+		// src_map:golf.rb:39
+		b while0_condition
+
+	while0_end:
 
 	// src_map:golf.rb:41
 	load 2 // low
@@ -166,11 +174,11 @@ end_while0:
 // src_map:golf.rb:52
 if1_end:
 
-	// src_map:golf.rb:56
-	global OpcodeBudget
-	itob
-	log
+// src_map:golf.rb:56
+global OpcodeBudget
+itob
+log
 
-	// src_map:golf.rb:57
-	int 1
-	return
+// src_map:golf.rb:57
+int 1
+return

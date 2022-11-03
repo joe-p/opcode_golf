@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/joe-p/TEALrb.git
-  revision: 54fa8a8a957038438a7c7e0c23cfa3a5c05a2530
+  revision: 22f2208ea8b7f536b0dc9267634d4817b402e4bb
   branch: future
   specs:
     tealrb (0.11.0)
