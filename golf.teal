@@ -72,8 +72,8 @@ if1_else:
 		load 2 // low
 		load 3 // high
 		+
-		int 1
-		shr
+		int 2
+		/
 		store 4 // mid
 
 		// src_map:golf.rb:32
@@ -174,11 +174,17 @@ if1_else:
 // src_map:golf.rb:52
 if1_end:
 
-// src_map:golf.rb:56
+// src_map:golf.rb:54
+byte "ints"
+box_get
+pop
+log
+
+// src_map:golf.rb:55
 global OpcodeBudget
 itob
 log
 
-// src_map:golf.rb:57
+// src_map:golf.rb:56
 int 1
 return

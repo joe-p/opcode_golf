@@ -28,7 +28,7 @@ class Golf < TEALrb::Contract
       $high = box_len_value('ints') / 2
 
       while $low < $high
-        $mid = shr($low + $high, 1)
+        $mid = ($low + $high) / 2
         $mid_value = btoi box_extract('ints', $mid * 2, 2)
 
         if $mid_value < $value
@@ -51,8 +51,7 @@ class Golf < TEALrb::Contract
       box['ints'] = $new_box_value
     end
 
-    # commented out for large test because it hits log limit before stack limit
-    # log box['ints']
+    log box['ints']
     log(itob(global.opcode_budget))
     approve
   end

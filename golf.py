@@ -112,7 +112,9 @@ nums = [
     456,
 ]
 
-nums = list(range(2048))
+# 508 is largest range that can be logged due to 1k log limitation
+# Comment out the log on line 54 of golf.rb to set range up to 2048 (which will hit stack limit)
+nums = list(range(508))
 random.shuffle(nums)
 total_budget = 0
 budgets = []
