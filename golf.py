@@ -1,13 +1,16 @@
 #!/usr/bin/env python3
 
+import re
 from algosdk.future import transaction
 from algosdk.v2client import algod
 from algosdk.logic import get_application_address
 from algosdk.abi import UintType
+from algosdk.error import AlgodHTTPError
 from beaker import *
 import base64
 import random
-
+import json
+from pathlib import Path
 
 algod_address = "http://localhost:4001"
 algod_token = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
@@ -67,7 +70,35 @@ def add_number(n):
 
 
 def send(txn):
-    txid = algod_client.send_transaction(txn.sign(sender.private_key))
+    try:
+        txid = algod_client.send_transaction(txn.sign(sender.private_key))
+    except AlgodHTTPError as e:
+        pc = int(re.findall("(?<=pc=).*?\d+", str(e))[0])
+        src_map = json.load(Path("golf.src_map.json").open())
+
+        teal_line = "Unknown"
+        rb_line = "Unknown"
+        for teal_ln, data in src_map.items():
+            print(data)
+            if "pcs" in data.keys() and pc in data["pcs"]:
+                teal_line = (
+                    Path("golf.teal").read_text().splitlines()[int(teal_ln) - 1].strip()
+                )
+
+                teal_line = f"./golf.teal:{teal_ln} => {teal_line}"
+
+                print(data["location"])
+                rb_line = (
+                    Path("golf.rb")
+                    .read_text()
+                    .splitlines()[int(data["location"].split(":")[1]) - 1]
+                    .strip()
+                )
+
+                rb_line = f"./{data['location']} => {rb_line}"
+                break
+
+        raise AlgodHTTPError(f"{str(e).splitlines()[0]}\n{teal_line}\n{rb_line}")
 
     return txid
 
